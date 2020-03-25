@@ -1,4 +1,6 @@
 const ghpages = require('gh-pages')
+const fs = require('fs');
+
 
 fs.writeFile('public/CNAME', "meghaduta.org", function(err) {});
 
