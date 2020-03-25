@@ -1,5 +1,7 @@
 const ghpages = require('gh-pages')
 
+fs.writeFile('public/CNAME', "meghaduta.org", function(err) {});
+
 // replace with your repo url
 ghpages.publish(
   'public',
