@@ -29,7 +29,7 @@ li {
 
 .dropdown-item {
     color: black !important;
-    height: 45px;
+    /* height: 45px; */
     vertical-align: middle;
     line-height: 100%;
 }
