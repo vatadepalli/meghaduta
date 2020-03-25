@@ -9,11 +9,6 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
-import "../../node_modules/jquery/dist/jquery.js"
-import "../../node_modules/popper.js/dist/umd/popper.min.js"
-import "../../node_modules/bootstrap/dist/js/bootstrap.js"
-
 import Header from "./header"
 import "./layout.css"
 
