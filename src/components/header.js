@@ -1,11 +1,12 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Menu from "./menu"
 
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `#0053A5`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -28,6 +29,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
+    <Menu/>
   </header>
 )
 
