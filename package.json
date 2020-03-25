@@ -30,7 +30,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "deploy": "npm run build && node ./scripts/deploy-github",
+    "deploy": "push update && npm run build && node ./scripts/deploy-github",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
