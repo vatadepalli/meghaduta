@@ -23,6 +23,7 @@ a {
     color: white !important;
     font-size: 20px;
     font-weight: bold;
+    line-height: 100% !important;
 }
 
 li {
@@ -42,8 +43,12 @@ li {
     text-align: right;
 }
 
-a.nav-link {
-    padding-top: 6px;
+.nav-link {
+    /* padding-top: 5px; */
+}
+
+li {
+    margin-bottom: unset !important;
 }
 
 a:hover {
@@ -52,4 +57,8 @@ a:hover {
 
 a:focus {
     outline: none;
+}
+
+li a {
+    vertical-align: middle !important;
 }
