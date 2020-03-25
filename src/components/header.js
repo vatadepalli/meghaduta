@@ -7,7 +7,7 @@ const Header = ({ siteTitle }) => (
   <div className="nav-content">
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       
-      <a className="navbar-brand" href="#">{ siteTitle }</a>
+      <Link className="navbar-brand" to="/">{ siteTitle }</Link>
     
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
@@ -25,17 +25,20 @@ const Header = ({ siteTitle }) => (
         <Link className="nav-link" to="/blog">Blog</Link>
       </li>
 
+      {/* History */}
       <li className="nav-item dropdown">
         <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           History
         </a>
         <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-          <Link className="dropdown-item" to="/">Action</Link>
-          <Link className="dropdown-item" to="/">Another action</Link>
+          <Link className="dropdown-item" to="/history-timeline">Timeline</Link>
           <div className="dropdown-divider"></div>
-          <Link className="dropdown-item" to="/">Something else here</Link>
+          <Link className="dropdown-item" to="/history/ancient">Ancient History</Link>
+          <Link className="dropdown-item" to="/history/medieval">Medieval History</Link>
+          <Link className="dropdown-item" to="/history/modern">Modern History</Link>
         </div>
       </li>
+
     </ul>
 
     </div>

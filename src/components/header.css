@@ -32,6 +32,8 @@ li {
     /* height: 45px; */
     vertical-align: middle;
     line-height: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .navbar-brand {
