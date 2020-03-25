@@ -1,0 +1,55 @@
+.navbar-toggler-icon {
+    color: white !important;
+}
+
+.navbar {
+    font-family: "Open Sans";
+    background-color: #0053A5 !important;
+    /* background-color: green !important; */
+    /* padding: 15px; */
+    /* margin-bottom: 20px; */
+    max-width: 1280px;
+    margin: auto;
+}
+
+.nav-content {
+    font-family: "Open Sans";
+    background-color: #0053A5 !important;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: white !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li {
+    margin-right: 10px;
+}
+
+.dropdown-menu > a {
+    color: black !important;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.navbar-right li a {
+    text-align: right;
+}
+
+a.nav-link {
+    padding-top: 6px;
+}
+
+a:hover {
+    outline: none;
+}
+
+a:focus {
+    outline: none;
+}
