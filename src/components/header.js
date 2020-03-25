@@ -31,7 +31,7 @@ const Header = ({ siteTitle }) => (
           History
         </a>
         <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-          <Link className="dropdown-item" to="/history-timeline">Timeline</Link>
+          <Link className="dropdown-item" to="/history/">Timeline</Link>
           <div className="dropdown-divider"></div>
           <Link className="dropdown-item" to="/history/ancient">Ancient History</Link>
           <Link className="dropdown-item" to="/history/medieval">Medieval History</Link>
