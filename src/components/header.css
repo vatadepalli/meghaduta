@@ -5,9 +5,6 @@
 .navbar {
     font-family: "Open Sans";
     background-color: #0053A5 !important;
-    /* background-color: green !important; */
-    /* padding: 15px; */
-    /* margin-bottom: 20px; */
     max-width: 1280px;
     margin: auto;
 }
@@ -15,11 +12,11 @@
 .nav-content {
     font-family: "Open Sans";
     background-color: #0053A5 !important;
-    padding: 15px;
-    margin-bottom: 20px;
+    padding: 5px;
+    margin-bottom: 15px;
 }
 
-a {
+li a {
     color: white !important;
     font-size: 20px;
     font-weight: bold;
@@ -30,12 +27,15 @@ li {
     margin-right: 10px;
 }
 
-.dropdown-menu > a {
+.dropdown-item {
     color: black !important;
+    height: 45px;
+    vertical-align: middle;
+    line-height: 100%;
 }
 
 .navbar-brand {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -53,8 +53,24 @@ a:hover {
 
 a:focus {
     outline: none;
+    background-color: #0053A5 !important;
+    color: white !important;
 }
 
 li a {
     vertical-align: middle !important;
+}
+
+@media (max-width: 992px) {
+    .navbar-brand {
+        font-size: 1.3rem;
+    }
+
+    li a {
+        font-size: 16px;
+    }
+ 
+    .navbar-toggler-icon {
+        height: 25px !important;
+    }
 }
