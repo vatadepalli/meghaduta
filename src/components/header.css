@@ -16,7 +16,7 @@
     margin-bottom: 15px;
 }
 
-li a {
+li a.nav-link {
     color: white !important;
     font-size: 20px;
     font-weight: bold;
@@ -49,11 +49,11 @@ li {
     margin-bottom: unset !important;
 }
 
-a:hover {
+a.nav-link:hover {
     outline: none;
 }
 
-a:focus {
+a.nav-link:focus {
     outline: none;
     background-color: #0053A5 !important;
     color: white !important;

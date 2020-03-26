@@ -8,19 +8,16 @@ const AncientHistoryPage = ({ data }) => (
   <Layout>
     <SEO title="Ancient History" />
     <h1>Ancient History</h1>
-    { 
+    <ul>
+    {
       data.allMarkdownRemark.edges.map(post => (
         post.node.frontmatter.folder === 'ancient' &&
-        <div key={post.node.id}>
-          <h3>{post.node.frontmatter.title}</h3>
-          <small>Posted by {post.node.frontmatter.author} on {post.node.frontmatter.date}</small>
-          <br/><br/>
-          <Link to={post.node.frontmatter.path}>Read More...</Link>
-          <br/><br/>
-          <hr/>
-        </div>
+        <li className="pageLink" key={post.node.id}>
+          <Link to={post.node.frontmatter.path}>{post.node.frontmatter.title}</Link>
+        </li>
       ))
-  }
+    }
+    </ul>
   </Layout>
 )
 
