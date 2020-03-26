@@ -1,5 +1,6 @@
 ---
 path: "/post"
+folder: "ancient"
 date: "2020-03-25"
 title: "My first gatsby post"
 author: "Vijaya Aditya Tadepalli"

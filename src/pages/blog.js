@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Link from 'gatsby-link'
 
-const BlogPage = ({ data}) => (
+const BlogPage = ({ data }) => (
   <Layout>
     <SEO title="Blog" />
     <h1>Latest Posts</h1>
