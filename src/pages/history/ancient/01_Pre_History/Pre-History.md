@@ -7,4 +7,4 @@ author: "Vijaya Aditya"
 ---
 
 ## This is my very first blog post in Gatsby
-![](cert.jpg)
+![](cert.jpg) 
