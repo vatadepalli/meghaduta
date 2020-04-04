@@ -18,4 +18,4 @@ author: "Vijaya Aditya"
 
 ## Chalcolithic Period - (4000 BC - 1500 BC)
 
-## Iron Age - (1500 BC - 200 BC)
+## Iron Age - (1400 BC - 200 BC)
