@@ -10,9 +10,8 @@ export default function Template({data}){
     return (
     <Layout>
         <SEO title="Home" />
-        <Link to="/blog">Go Back</Link>
-            <hr/>
             <h1>{post.frontmatter.title}</h1>
+            <hr/>
             <h4>Posted by {post.frontmatter.author} on {post.frontmatter.date}</h4>
             <div dangerouslySetInnerHTML={{__html: post.html}} />
       </Layout>

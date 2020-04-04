@@ -13,7 +13,7 @@ Proto-Humans (Homo erectus) were in sub-continent 20 Lakh (2mn) yrs ago - Homo S
 Nagas (NE), Santhals (E), Bhils (C), Ghonds (C), Todas (S), etc. - May be the 1st inhabitants. - Dravidians & Aryans came later.
 
 * **Pre History** - (Below classification based on tools)
-    * **Palaeolithic** Period (2mn BC - 700 AD)
+    * **Palaeolithic** Period (2mn BC - 10,000 BC)
                     
             Fire - Limestone Tools - Ostrich Eggs
 
