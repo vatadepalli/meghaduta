@@ -6,6 +6,3 @@ title: "Indus Valley Civilization"
 author: "Vijaya Aditya, Kapil Anirudh"
 ---
 
-
-
-ksbvksvbkw
