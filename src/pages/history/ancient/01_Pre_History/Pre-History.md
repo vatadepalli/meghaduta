@@ -4,6 +4,7 @@ folder: "ancient"
 date: "2020-03-27"
 title: "Pre History"
 author: "Vijaya Aditya"
+sequence: 01
 ---
 
 ## Palaeolithic Period - (2mn BC - 10,000 BC)

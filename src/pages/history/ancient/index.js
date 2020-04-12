@@ -23,7 +23,7 @@ const AncientHistoryPage = ({ data }) => (
 
 export const pageQuery = graphql`
   query AHIndexQuery {
-      allMarkdownRemark {
+      allMarkdownRemark(sort: {fields: [frontmatter___folder], order: ASC}) {
         edges {
           node {
             id
