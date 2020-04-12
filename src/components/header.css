@@ -7,6 +7,7 @@
     background-color: #0053A5 !important;
     max-width: 1280px;
     margin: auto;
+    height: 40px;
 }
 
 .nav-content {
@@ -18,9 +19,13 @@
 
 li a.nav-link {
     color: white !important;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     line-height: 100% !important;
+}
+
+a.dropdown-item {
+    font-size: 16px;
 }
 
 li {
@@ -37,7 +42,7 @@ li {
 }
 
 .navbar-brand {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
@@ -65,12 +70,22 @@ li a {
 
 @media (max-width: 992px) {
     .navbar-brand {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+        font-weight: bold;
     }
 
-    li a {
-        font-size: 16px;
+    .navbar {
+        font-family: "Open Sans";
+        background-color: #0053A5 !important;
+        max-width: 1280px;
+        margin: auto;
+        height: unset;
     }
+    
+
+    /* li a {
+        font-size: 16px;
+    } */
  
     .navbar-toggler-icon {
         height: 25px !important;
